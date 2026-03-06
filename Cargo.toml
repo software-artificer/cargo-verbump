@@ -7,7 +7,7 @@ edition = "2024"
 anyhow = { version = "1.0.102", default-features = false, features = ["std"] }
 clap = { version = "4.5.60", default-features = false, features = ["derive", "help", "std", "usage"] }
 semver = { version = "1.0.27", default-features = false, features = ["std"] }
-toml_edit = { version = "0.25.3", default-features = false, features = ["display", "parse"] }
+toml_edit = { version = "0.25.4", default-features = false, features = ["display", "parse"] }
 
 [dev-dependencies]
 tempfile = { version = "3.26.0", default-features = false }
