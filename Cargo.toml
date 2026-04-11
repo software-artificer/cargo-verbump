@@ -6,7 +6,7 @@ edition = "2024"
 [dependencies]
 anyhow = { version = "1.0.102", default-features = false, features = ["std"] }
 clap = { version = "4.6.0", default-features = false, features = ["derive", "help", "std", "usage"] }
-semver = { version = "1.0.27", default-features = false, features = ["std"] }
+semver = { version = "1.0.28", default-features = false, features = ["std"] }
 toml_edit = { version = "0.25.11", default-features = false, features = ["display", "parse"] }
 
 [dev-dependencies]
